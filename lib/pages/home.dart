@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:to_do/components/todo_completed.dart';
 import 'package:to_do/components/todo_task.dart';
-import 'package:to_do/pages/input_form.dart';
-import 'package:to_do/pages/profile.dart';
 import 'package:to_do/provider/todo_provider.dart';
 
 class Home extends StatefulWidget {
