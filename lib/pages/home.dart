@@ -143,9 +143,9 @@ class _HomeState extends State<Home> {
             ),
           ),
           SizedBox(height: 20),
-          // Expanded(
-          //   child: StatusAt == Status.todo ? TodoTask() : TodoCompleted(),
-          // ),
+          Expanded(
+            child: StatusAt == Status.todo ? TodoTask() : TodoCompleted(),
+          ),
         ],
       ),
     );
